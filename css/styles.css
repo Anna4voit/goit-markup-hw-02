@@ -134,11 +134,11 @@ li {
 }
 
 /* Footer */
-.footer-page {
+.podval-page {
   background: var(--navyblue);
 }
 
-.footer-logo {
+.podval-logo {
   color: var(--cloud);
   font-family: Raleway;
   font-size: 18px;
@@ -148,10 +148,10 @@ li {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.footer-web-logo {
+.podval-web-logo {
   color: var(--iris);
 }
-.footer-text {
+.podval-text {
   color: var(--cloud);
 }
 
@@ -167,6 +167,7 @@ li {
   border-style: none;
   border-radius: 4px;
   font-weight: 500;
+  line-height: 24px;
   letter-spacing: 0.64px;
 }
 .functional:hover {
