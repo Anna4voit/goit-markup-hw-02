@@ -9,7 +9,6 @@
 }
 
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   background: #fff;
   color: var(--navyblue);
@@ -50,7 +49,6 @@ li {
 .main-nav a:link {
   color: var(--navyblue);
   font-size: 16px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
@@ -66,7 +64,6 @@ li {
 .contacts a:link {
   color: var(--slate);
   font-size: 16px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -78,13 +75,12 @@ li {
 }
 
 /* Main page */
-.main-page {
+.main-content {
   background: var(--navyblue);
 }
 .main-title {
   color: var(--white);
   text-align: center;
-  font-family: Roboto;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -94,6 +90,7 @@ li {
 
 /* Button order-service */
 .order-service {
+  cursor: pointer;
   text-align: center;
   color: var(--white);
   background-color: var(--iris);
@@ -101,7 +98,6 @@ li {
   border-style: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   font-size: 16px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
@@ -113,12 +109,18 @@ li {
 }
 
 /* Section2 */
-.list-sect2 h3 {
+.list h3 {
   text-align: left;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
 }
-.list-sect2 p {
+.list p {
   color: var(--slate);
   text-align: left;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 
 /* Our team */
@@ -155,8 +157,8 @@ li {
 
 /* Portfolio */
 
-/* Button portfolio */
-.pointer {
+/* List of button  */
+.functional {
   cursor: pointer;
   background: var(--cloud);
   color: var(--iris);
@@ -164,14 +166,10 @@ li {
   border: 1px solid var(--cornflower);
   border-style: none;
   border-radius: 4px;
-  font-size: 16px;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
   letter-spacing: 0.64px;
 }
-.pointer:hover {
+.functional:hover {
   color: var(--white);
   background: var(--ocean);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
