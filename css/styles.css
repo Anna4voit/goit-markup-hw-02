@@ -103,19 +103,19 @@ li {
 }
 
 /* Section2 */
-.title-sect2 {
+.title-sect-two {
   color: var(--navyblue);
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.sect2-subtitle {
+.sect-two-subtitle {
   text-align: left;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
 }
-.sect2-parag {
+.sect-two-parag {
   color: var(--slate);
 
   font-weight: 400;
@@ -124,7 +124,7 @@ li {
 }
 
 /*  Section 3*/
-.title-sect3 {
+.title-sect-doing {
   color: var(--navyblue);
   text-align: center;
   font-size: 36px;
@@ -167,7 +167,7 @@ li {
   background: var(--navyblue);
 }
 
-.podval-logo:link {
+.podval-logo {
   color: var(--iris);
   font-family: Raleway, sans-serif;
   font-size: 18px;
