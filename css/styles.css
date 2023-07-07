@@ -56,7 +56,7 @@ li {
 }
 
 /* Contacts */
-.contacts a:link {
+.contacts a {
   color: var(--slate);
   font-size: 16px;
   font-style: normal;
@@ -201,7 +201,32 @@ li {
   line-height: 24px;
   letter-spacing: 0.64px;
 }
-.functional:hover {
+.functional:hover,
+.functional:focus {
   color: var(--white);
   background: var(--ocean);
+}
+
+.portfolio-title {
+  color: var(--white);
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+.portfolio-subtitle {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-text {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
