@@ -26,21 +26,22 @@ li {
 
 /* Header */
 .main-logo {
-  color: var(--navyblue);
+  color: var(--iris);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .web-logo {
-  color: var(--iris);
+  color: var(--navyblue);
 }
 
 /* Navigations */
-.main-lyst a {
+.main-spisok a {
   color: var(--navyblue);
   font-size: 16px;
   font-style: normal;
@@ -49,7 +50,7 @@ li {
   letter-spacing: 0.32px;
 }
 
-.main-lyst a:hover {
+.main-spisok a:hover {
   color: var(--ocean);
   text-decoration: underline;
 }
@@ -166,7 +167,7 @@ li {
   background: var(--navyblue);
 }
 
-.podval-logo {
+.podval-logo:link {
   color: var(--iris);
   font-family: Raleway, sans-serif;
   font-size: 18px;
