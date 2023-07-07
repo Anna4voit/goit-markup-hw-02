@@ -11,8 +11,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background: #fff;
-  color: var(--navyblue);
-  width: 1440px;
+  color: var(--slate);
 }
 
 h2 {
@@ -33,7 +32,7 @@ li {
 /* Header */
 .main-logo {
   color: var(--navyblue);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -46,7 +45,7 @@ li {
 }
 
 /* Navigations */
-.main-list a:link {
+.main-lyst a {
   color: var(--navyblue);
   font-size: 16px;
   font-style: normal;
@@ -55,7 +54,7 @@ li {
   letter-spacing: 0.32px;
 }
 
-.main-list a:hover {
+.main-lyst a:hover {
   color: var(--ocean);
   text-decoration: underline;
 }
@@ -84,7 +83,7 @@ li {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 
@@ -95,8 +94,6 @@ li {
   color: var(--white);
   background-color: var(--iris);
   border-radius: 4px;
-  border-style: none;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -124,11 +121,11 @@ li {
 }
 
 /* Our team */
-.list-team h3 {
+.our-team h3 {
   text-align: center;
 }
 
-.list-team p {
+.our-team p {
   color: var(--slate);
   text-align: center;
 }
@@ -139,20 +136,23 @@ li {
 }
 
 .podval-logo {
-  color: var(--cloud);
-  font-family: Raleway;
+  color: var(--iris);
+  font-family: Raleway, sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 .podval-web-logo {
-  color: var(--iris);
+  color: var(--cloud);
 }
 .podval-text {
   color: var(--cloud);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 /* Portfolio */
@@ -165,7 +165,6 @@ li {
   text-align: center;
   border: 1px solid var(--cornflower);
   border-style: none;
-  border-radius: 4px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
@@ -173,6 +172,4 @@ li {
 .functional:hover {
   color: var(--white);
   background: var(--ocean);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
