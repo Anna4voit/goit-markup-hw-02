@@ -14,16 +14,6 @@ body {
   color: var(--slate);
 }
 
-/* Cancel underlining in links */
-a {
-  text-decoration: none;
-}
-
-/* Cancel displaying the marker in the list */
-li {
-  list-style-type: none;
-}
-
 /* Header */
 .main-logo {
   color: var(--iris);
@@ -131,6 +121,9 @@ li {
   line-height: 1.11;
   text-transform: capitalize;
   text-align: center;
+}
+.list {
+  list-style: none;
 }
 
 /* Our team */
