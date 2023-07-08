@@ -40,12 +40,16 @@ body {
   letter-spacing: 0.32px;
 }
 
-.main-spisok a:hover {
+.main-spisok a:hoverб .main-spisok a:focus {
   color: var(--ocean);
   text-decoration: underline;
 }
 
 /* Contacts */
+.main-contacts {
+  font-style: normal;
+}
+
 .contacts a {
   color: var(--slate);
   font-size: 16px;
@@ -100,10 +104,12 @@ body {
   letter-spacing: 0.02em;
 }
 .sect-two-subtitle {
+  color: var(--navyblue);
+  font-size: 20px;
   text-align: left;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .sect-two-parag {
   color: var(--slate);
@@ -130,6 +136,10 @@ body {
 .our-team {
   background-color: #f4f4fd;
 }
+.foto {
+  background-color: var(--white);
+}
+
 .title-our-team {
   color: var(--navyblue);
   font-size: 36px;
@@ -156,14 +166,14 @@ body {
 }
 
 /* Footer */
-.podval-page {
+.footer-page {
   background: var(--navyblue);
 }
 .link {
   text-decoration: none;
 }
 
-.podval-logo {
+.footer-logo {
   color: var(--iris);
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -172,10 +182,10 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.podval-web-logo {
+.footer-web-logo {
   color: var(--cloud);
 }
-.podval-text {
+.footer-text {
   color: var(--cloud);
   font-size: 16px;
   font-weight: 400;
