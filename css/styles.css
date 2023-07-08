@@ -40,7 +40,8 @@ body {
   letter-spacing: 0.32px;
 }
 
-.main-spisok a:hoverб .main-spisok a:focus {
+.main-spisok a:hover,
+.main-spisok a:focus {
   color: var(--ocean);
   text-decoration: underline;
 }
